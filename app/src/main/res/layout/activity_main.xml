@@ -9,85 +9,103 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.overbudget.game2014.MainActivity">
+    tools:context="com.overbudget.game2014.MainActivity"
+    android:background="@color/colorBkg"><![CDATA[
 
+
+
+
+
+
+
+    =======
+        android:text="Hello World!" />
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <ImageButton
-        android:src="@drawable/food_icon"
-        android:id="@+id/Food_Icon"
+        android:src="@drawable/gears"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="22dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/Settings"
+        android:layout_alignTop="@+id/Health_Icon"
+        android:layout_toEndOf="@+id/Health_Icon" />
 
     <ImageButton
         android:src="@drawable/health_icon"
         android:id="@+id/Health_Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignBottom="@+id/Food_Icon" />
+        android:layout_alignTop="@+id/Food_Icon"
+        android:layout_toStartOf="@+id/button"
+        android:layout_alignEnd="@+id/Games" />
 
     <ImageButton
-        android:src="@drawable/shower_icon"
+        android:src="@drawable/food_icon"
+        android:id="@+id/Food_Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/Food_Icon"
-        android:layout_marginStart="13dp"
-        android:layout_marginBottom="71dp"
-        android:id="@+id/Shower" />
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/Health_Icon" />
 
     <ImageButton
         android:src="@drawable/games_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/Shower"
-        android:layout_alignStart="@+id/Health_Icon"
-        android:id="@+id/Games" />
-
-
-
-    <ImageButton
-        android:src="@drawable/gears"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
-        android:id="@+id/Settings"
-        android:layout_alignTop="@+id/Health_Icon"
-        android:layout_alignParentEnd="true" />
-
+        android:id="@+id/Games"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:src="@drawable/stats_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
         android:id="@+id/Stats"
-        android:layout_alignTop="@+id/Shower"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Games" />
+
+    <ImageButton
+        android:src="@drawable/shower_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Shower"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/Games" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/android"
-        android:layout_marginTop="211dp"
         android:id="@+id/imageView"
-        android:layout_below="@+id/Health_Icon"
-        android:layout_centerHorizontal="true" />
-=======
-        android:text="Hello World!" />
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/Games"
+        android:layout_toStartOf="@+id/Stats"
+        android:layout_marginEnd="27dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="13dp" />
->>>>>>> 7c04a15bd67184d6d5ddcb6064e4c5ec7e6ca622
+        android:text="@string/btn_exit"
+        android:elevation="1dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/Games"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp" />
+    <![CDATA[
+
+    >>>>>>> 7c04a15bd67184d6d5ddcb6064e4c5ec7e6ca622
+]]>
 </RelativeLayout>
 
