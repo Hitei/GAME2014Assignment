@@ -10,4 +10,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.overbudget.game2014.MainMenu">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sanicidle"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/text"
+        />
+
+    <TextView
+        android:text="PET N' PALS"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/textView2"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="89dp" />
+
+    <TextView
+        android:text="Enter Pet Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+
 </RelativeLayout>
