@@ -103,6 +103,15 @@
         android:layout_toEndOf="@+id/Games"
         android:layout_marginStart="12dp"
         android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginStart="120dp"
+        android:id="@+id/Name"
+        android:layout_width="100dp"
+        android:textSize="24sp" />
     <![CDATA[
 
     >>>>>>> 7c04a15bd67184d6d5ddcb6064e4c5ec7e6ca622

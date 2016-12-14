@@ -39,7 +39,8 @@
         android:id="@+id/editText"
         android:layout_alignParentTop="true"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="89dp" />
+        android:layout_marginTop="89dp"
+        android:imeOptions="actionSend" />
 
     <TextView
         android:text="Enter Pet Name:"
